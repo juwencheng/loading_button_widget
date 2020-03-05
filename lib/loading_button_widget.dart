@@ -14,7 +14,7 @@ class LoadingButtonWidget extends StatefulWidget {
       {Key key,
       @required this.onTap,
       this.title,
-      this.color,
+      this.color = Colors.black,
       this.height = 56,
       this.titleStyle})
       : super(key: key);
